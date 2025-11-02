@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+discord = "*"
+tensorflow = "==2.14.0"
+requests = "*"
+pillow = "*"
+numpy = "==1.24.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
